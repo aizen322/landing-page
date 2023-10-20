@@ -24,6 +24,7 @@ a{
 }
 .navbar-links a, .headline p{
     font-size: 18px;
+    
 }
 .navbar-links{
     display: flex;
@@ -54,10 +55,9 @@ a{
     border: none;
     border-radius: 5px;
     color: white;
-    padding: 8px 32px;
+    padding: 8px 40px;
     font-size: 18px;
 }
-
 
 .headline text{
     display: flex;
@@ -70,4 +70,97 @@ a{
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+}
+/*-------------*/
+.informations{
+    display: flex;
+    flex-direction: column;
+    padding: 4% 20%;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    gap: 30px;
+}
+.informations h1{
+    text-align: center;
+}
+.info-cards{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    width: 200px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    text-align: center;
+}
+/*-------------*/
+.quote{
+    background-color: #e5e7eb;
+    padding: 0 20%;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    height: 400px;
+    flex-wrap: wrap;
+}
+.quote p{
+    font-size: 30px;
+    font-style: italic;
+    margin: 0;
+}
+.quote h3{
+    display: flex;
+    justify-content: end;
+}
+/*-------------*/
+.call-to-action{
+    height: 400px;
+    padding: 0 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta-container{
+    width: 1000px;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+}
+.cta-text{
+    color: white;
+}
+.cta-text h3, .cta-text p{
+    margin: 0;
+}
+.cta-button{
+    padding: 10px 40px;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+/*-------------*/
+.footer{
+    background-color: #1F2937;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
